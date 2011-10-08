@@ -1,0 +1,105 @@
+/* Facebox style */
+
+.close-btn{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.facebox div {
+	padding:10px;
+	background-color:#ffffff;
+	font-size: 15px;
+}
+
+.facebox h2 {
+	margin:-11px;
+	margin-bottom:0px;
+	color:#fff;
+	background-color:#21384D;
+	padding:5px 10px;
+	border:1px solid #3B5998;
+	font-size:20px;
+}
+
+.facebox {
+
+	/* overlay is hidden before loading */
+	display:none;
+
+	/* standard decorations */
+	width:940px;
+	border:10px solid #666;
+
+	/* for modern browsers use semi-transparent color on the border. nice! */
+	border:10px solid rgba(82, 82, 82, 0.698);
+
+	/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+.facebox div {
+	padding:10px;
+	background-color:#ffffff;
+	font-size: 15px;
+}
+
+
+.facebox h2 {
+	margin:-11px;
+	margin-bottom:0px;
+	color:#fff;
+	background-color:#21384D;
+	padding:5px 10px;
+	border:1px solid #3B5998;
+	font-size:20px;
+}
+
+.facebox-header h2{
+
+}
+
+.facebox-content p{
+margin: 9px 0;
+}
+
+/* error message */
+/* error container */
+#errors {
+	background-color:#163356;
+	color:#fff;
+	width:400px;
+	padding:20px;
+	margin:5px auto;
+	display:none;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;			
+}
+
+/* title */
+#errors h2 {
+	margin:-5px 0;
+	color:yellow;
+}
+
+
+#now-calling {background: #e4e4e4; border-bottom: 1px solid #cccccc; border-top: 1px solid #cccccc; padding: 0; margin: 0 0 12px 0;}
+
+/* simple css-based tooltip */
+.tooltip {
+	background-color:#21384D;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:200px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:13px;
+	line-height: 15px;
+	z-index: 9999;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
