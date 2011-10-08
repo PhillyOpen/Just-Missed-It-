@@ -53,11 +53,8 @@ target="_blank">Phat Stats</a></li>
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1>Just Missed It!</h1>
-        <p>Have you ever been on a bus, train or trolly in Philly? Probably. What's the first question you have when you prepare to embark on a journey? That's right. When's the next bus/train/trolly coming. <strong><i>Just Missed It!</i></strong> helps you better plan your trip by providing you with the timely and pertinent information you need to make your trip as smooth as possible.</p>
-	<p>The best part about it is you don't have to deal with any 
-annoying application interface; We send you the information you need via 
-text message or phone call!</p>
+        <h1>Just Missed It!<small>Find out if you just missed the last train bus or trolly, and when the next one will arrive.</small></h1>
+        
        <!-- <p><a 
 href="https://www.facebook.com/dialog/oauth?client_id=185247381547676&scope=email,offline_access,sms,publish_stream,user_about_me,user_birthday&redirect_uri=http://fatapp.emelle.me/signup"><img 
 src="themes/jmi/img/fb-button.png" /></a></p> -->
