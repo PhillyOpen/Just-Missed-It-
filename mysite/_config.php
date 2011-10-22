@@ -12,6 +12,9 @@ require_once("conf/ConfigureFromEnv.php");
 
 MySQLDatabase::set_connection_charset('utf8');
 
+/* URL Rules for Map View */
+Director::addRules(50, array('bus/$Action/$ID/$OtherID' => 'Page_Controller'));
+
 // This line set's the current theme. More themes can be
 // downloaded from http://www.silverstripe.org/themes/
 SSViewer::set_theme('blackcandy');
